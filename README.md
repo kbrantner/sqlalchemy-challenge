@@ -5,12 +5,16 @@ For this project I decided to do a climate analysis for Honolulu, HI using both 
 
 For the second part of this project, I took a detailed look at the 9 stations in the dataset. I found the most active station, which is “USC00519281”. I calculated the lowest, highest, and average temperature from that station. I then created a histogram of the last 12 months of temperature observations from this station. The histogram data is divided into 12 bins. 
 
-For the final part of this project, I designed a Flask API based on my code from the previous parts of this project. The Flask has both static and dynamic routes, all of which are displayed on the homepage. For the dynamic routes you only enter the start’s “YYYMMDD” or the start and end date separated by a “/”, for example “YYYMMDD/ YYYMMDD”.
+For the final part of this project, I designed a Flask API based on my code from the previous parts of this project. The Flask has both static and dynamic routes, all of which are displayed on the homepage. For the dynamic routes you only enter the start’s “YYYMMDD” or the start and end date separated by a “/”, for example “YYYMMDD/ YYYMMDD”. This 
 
 #Visuals
 Precipitation Graph
+![image](https://github.com/kbrantner/sqlalchemy-challenge/assets/117327499/4ffb3001-abf7-4628-9cc4-570e6c67c330)
+
  
 Histogram of Temperatures from Most Active Station
+![image](https://github.com/kbrantner/sqlalchemy-challenge/assets/117327499/0cdb8e53-05b1-464a-becc-12b3dccbf518)
+
  
 #Installation
 To work with sqlalchemy in jupyter notebook and to create the graphs, import the following:
